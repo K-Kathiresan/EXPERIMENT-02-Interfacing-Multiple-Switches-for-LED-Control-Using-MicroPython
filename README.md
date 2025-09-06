@@ -49,7 +49,7 @@ Connect the other terminals of the switches to GND.
 
 ## PROGRAM (MicroPython)
 FIG1
-```
+```py
 from machine import Pin
 import time
 
@@ -68,7 +68,7 @@ while True:
     time.sleep(0.1)  
 ```
 FIG2
-```
+```py
 from machine import Pin
 import time
 
